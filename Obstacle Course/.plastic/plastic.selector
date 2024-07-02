@@ -1,4 +1,0 @@
-repository "Obstacle Course@ttvweazel@cloud"
-  path "/"
-    br "/main"
-    co "/main"
