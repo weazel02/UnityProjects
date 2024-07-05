@@ -24,8 +24,16 @@ public class Movement : MonoBehaviour
     {
         ProcessThrust();
         ProcessRotation();
+        QuitApplication();
     }
 
+    void QuitApplication()
+    {
+        if(Input.GetKey(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+    }
     void ProcessThrust()
     {  
         if(Input.GetKey(KeyCode.Space))
